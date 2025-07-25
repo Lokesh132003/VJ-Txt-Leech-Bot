@@ -1,5 +1,4 @@
 FROM python:3.10.8-slim-buster
-RUN apt-get update -y && apt-get upgrade -y /
     
 
 COPY . /app/
